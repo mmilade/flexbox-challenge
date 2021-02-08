@@ -16,10 +16,11 @@ justify-content: space-between;
 nav div {
   width: 10%;
   height: 100%;
-  background-color: gray;
-  color: orange;
+  background-color: green;
+  color: white;
   /* padding-top: 15px; */
   padding: 10px 0;
+  text-align: center;
 }
 
 /* nav div h1 {
@@ -34,5 +35,33 @@ nav ul {
   justify-content: space-between;
   align-items: center;
   list-style-type: none;
+}
 
+/* .main section {
+  display: flex;
+  justify-content: space-between;
+} */
+
+
+main {
+  display: flex;
+  justify-content: space-between;
+  height: 800px;
+  width: 100%;
+  border: 1px solid black;
+}
+
+#section1 div {
+  border: black solid;
+  padding: 20px;
+  margin: 10px;
+  width: 100%;
+}
+
+#section2 {
+  border: black solid;
+  padding: 20px;
+  margin: 10px;
+  width: 40%;
+  height: 500px;
 }
